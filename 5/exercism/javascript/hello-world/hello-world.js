@@ -1,3 +1,2 @@
-function sayHi () {
-    return ("Hello World");
-};
+
+export const hello = () => 'Hello, World!'
