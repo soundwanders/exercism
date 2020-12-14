@@ -3,8 +3,19 @@
 // convenience to get you started writing code faster.
 //
 
-export const colorCode = () => {
-  throw new Error("Remove this statement and implement this function");
+const resistorColors = {
+    'black': 0,
+    'brown': 1,
+    'red': 2,
+    'orange': 3,
+    'yellow': 4,
+    'green': 5,
+    'blue': 6,
+    'violet': 7,
+    'grey': 8,
+    'white': 9
 };
 
-export const COLORS = undefined;
+export const colorCode = key => resistorColors[key];
+
+export const COLORS = Object.keys(resistorColors);
