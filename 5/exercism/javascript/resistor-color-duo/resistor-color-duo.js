@@ -1,22 +1,12 @@
-//
-// This is only a SKELETON file for the 'Resistor Color Duo' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+
+// find indexOf the two colors inside the resistorColors array
+// then combine into one integer that equals resistor band value
 
 
 export const decodedValue = ([colorOne , colorTwo]) => {
-  let bandValue = `${resistorColors.indexOf(colorOne)}${resistorColors.indexOf(colorTwo)}`;
-  return parseInt(bandValue);
+  let bandValue = (resistorColors.indexOf(colorOne) * 10) + resistorColors.indexOf(colorTwo);
+  return bandValue;
 };
-
-// Can also find indexOf the two colors inside the resistorColors array, then convert into integer
-  /*
-    export const decodedValue = ([colorOne , colorTwo]) => {
-      let bandValue = (resistorColors.indexOf(colorOne) * 10) + resistorColors.indexOf(colorTwo);
-      return bandValue;
-    };
-  */
-//
 
 export const resistorColors = [
   'black' ,
