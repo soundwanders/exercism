@@ -1,2 +1,1 @@
-# exercism
-Exercism.io problems
+## exercism.io problems & solutions
