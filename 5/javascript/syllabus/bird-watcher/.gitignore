@@ -1,0 +1,9 @@
+.vscode
+node_modules
+yarn-error.log
+babel.config.js
+.npmrc
+.eslintrc
+LICENSE
+.exercism
+package-lock.json
