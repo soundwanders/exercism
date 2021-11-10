@@ -16,7 +16,10 @@ export function timeToMixJuice(name) {
     case 'Pure Strawberry Joy':
     return 0.5;
 
-    case 'Energizer' || 'Green Garden':
+    case 'Energizer':
+    return 1.5;
+    
+    case 'Green Garden':
     return 1.5;
 
     case 'Tropical Island':
@@ -53,6 +56,7 @@ export function limesToCut(wedgesNeeded, limes) {
       slicedWedges += wedges[limes[i]]; 
       i++;
     }
+    else return i;
   }
   return i;
 }
